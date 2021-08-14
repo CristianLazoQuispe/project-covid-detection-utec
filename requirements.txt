@@ -1,0 +1,8 @@
+
+tensorflow
+keras
+scipy
+matplotlib
+pillow
+gdown
+
