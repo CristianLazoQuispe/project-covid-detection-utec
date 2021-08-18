@@ -19,17 +19,17 @@ con una sensibilidad de 90%.
     
     # install libraries
     
-    $ pip install -r requirements.txt
+        $ pip install -r requirements.txt
 
     # Descargar la carpeta del dataset y descomprimirla automaticamente
     
-    $ python download.py
+        $ python download.py
     
     # Entrenar el modelo
     
-    $ python training.py
+        $ python training.py
     
     # Evaluar el modelo
     
-    $ python evaluate.py
+        $ python evaluate.py
     
