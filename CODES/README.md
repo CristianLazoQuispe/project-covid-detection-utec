@@ -1,1 +1,0 @@
-# project-covid-detection-utec
