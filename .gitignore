@@ -1,6 +1,9 @@
+token.sk
+
 DATASET/
 
 *.zip
+
 *.h5
 *.hdf5
 
