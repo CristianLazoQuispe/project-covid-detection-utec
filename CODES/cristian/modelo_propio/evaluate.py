@@ -1,7 +1,11 @@
 # some_file.py
 import sys
 # insert at 1, 0 is the script path (or '' in REPL)
+<<<<<<< HEAD
 sys.path.insert(1, '../RESOURCES')
+=======
+sys.path.insert(1, '../../../RESOURCES')
+>>>>>>> main
 
 from loss_functions import * 
 from metrics import * 
@@ -15,10 +19,17 @@ WIDTH = 256
 HEIGHT = 256
 
 
+<<<<<<< HEAD
 PATH_DATASET = '../DATASET/NEW_DATASET/MODELAMIENTO/PA'
 EPOCHS = 1000
 
 model_name = "../RESULTS/model_"+str(EPOCHS)+".h5"
+=======
+PATH_DATASET = '../../../DATASET/NEW_DATASET/MODELAMIENTO/PA'
+EPOCHS = 1000
+
+model_name = "../../../RESULTS/cristian/modelo_propio/model_"+str(EPOCHS)+".h5"
+>>>>>>> main
 
 
 batch_size = 64
@@ -119,7 +130,11 @@ def get_data(path,tipo):
     ax.xaxis.set_ticklabels(['covid','normal','no_covid']); ax.yaxis.set_ticklabels(['covid','normal','no_covid']);
     
 
+<<<<<<< HEAD
     fig_cm.savefig("../RESULTS/MODEL_"+str(EPOCHS)+"_f1_"+str(np.round(f1,4))+"_"+tipo+"_.png", dpi=fig_cm.dpi)
+=======
+    fig_cm.savefig("../../../RESULTS/MODEL_"+str(EPOCHS)+"_f1_"+str(np.round(f1,4))+"_"+tipo+"_.png", dpi=fig_cm.dpi)
+>>>>>>> main
 
     return predictions,y_test,fig_cm,f1
 

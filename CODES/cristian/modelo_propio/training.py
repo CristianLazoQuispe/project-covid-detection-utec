@@ -31,10 +31,17 @@ WIDTH = 256
 HEIGHT = 256
 
 
+<<<<<<< HEAD
 PATH_DATASET = '../DATASET/NEW_DATASET/MODELAMIENTO/PA'
 EPOCHS = 1000
 
 model_name = "../RESULTS/cristian/modelo_propio/model_"+str(EPOCHS)+".h5"
+=======
+PATH_DATASET = '../../../DATASET/NEW_DATASET/MODELAMIENTO/PA'
+EPOCHS = 1000
+
+model_name = "../../../RESULTS/cristian/modelo_propio/model_"+str(EPOCHS)+".h5"
+>>>>>>> main
 modelo = 'Xception'
 
 batch_size = 64
@@ -254,5 +261,9 @@ plt.tight_layout()
 #plt.show()
 plt.show()
 
+<<<<<<< HEAD
 fig_model_performance.savefig("../RESULTS/cristian/modelo_propio/metricas_modelo_"+str(EPOCHS)+".png", dpi=fig_model_performance.dpi)
+=======
+fig_model_performance.savefig("../../../RESULTS/cristian/modelo_propio/metricas_modelo_"+str(EPOCHS)+".png", dpi=fig_model_performance.dpi)
+>>>>>>> main
 #'''
