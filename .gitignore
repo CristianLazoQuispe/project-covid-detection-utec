@@ -1,7 +1,10 @@
-DATASET/NEW_DATASET/
-*.zip
-*.h5
+token.sk
 
+DATASET/
+
+*.zip
+
+*.h5
 *.hdf5
 
 # Byte-compiled / optimized / DLL files
