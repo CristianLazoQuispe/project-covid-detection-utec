@@ -1,3 +1,6 @@
+*.swm
+*.wsm
+
 token.sk
 
 DATASET/
