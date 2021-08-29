@@ -13,7 +13,8 @@ The  novel  coronavirus  2019  (COVID-19)  expands over  the  world  has  implie
 
 ## 1. Detection dataset
 
-In this study, we used chest x-ray images obtained from several sources. Initially we collected x-ray images consider anteroposterior (AP) and posteroanterior (PA) projections, but for classification models only PA images were used. The new dataset that contains 12027 images between COVID-19, NORMAL and NO_COVID (Fig. 1), was divided into AP and PA projection.
+In this study, we used chest x-ray images obtained from several sources. Initially we collected x-ray images consider anteroposterior (AP) and posteroanterior (PA) projections, but for classification models only PA images were used. The new dataset that contains 12027 images between COVID-19, NORMAL and NO_COVID (Fig. 1), was divided into AP and PA projection. Our dataset is available here https://drive.google.com/file/d/1CmrRt4Uyl3lGTgYKMWkouzfGPU_W47Nj/view?usp=sharing.
+
 
 <p align="center">
     <img src="RESOURCES/images/dataset1.jpeg" 
@@ -100,7 +101,7 @@ Training of the data was performed with the cost function focused on covid detec
 
 <p align="center">
     <img src="RESOURCES/images/cristian-metrics.jpeg" 
-     width="800" height="300"/>
+     width="800" height="500"/>
 </p>
 
 As can be seen in the results of a total of 1252 images in the test, a high sensitivity was obtained in comparison to other models (Rahimzadeh et, al, Narin et al), this model is robust to unbalanced data and achieves differences in pulmonary diseases very similar to covid such as pneumonia. Better results were obtained using a more complex architecture, with more dense layers, dropout layers and a focal cost function. The dense layers and dropout allow the model to learn the differences between the Covid-19 and other diseases, even though these images are very similar. The focal cost function allows us to keep our attention on learning the covid detection even though most of the data is pneumonia, avoiding the overfitting by unbalanced data.  Obtaining a satisfactory result in the test data of an average accuracy of 0.984 and sensitivity of 0.975 and a specificity of 0.947 in the covid recognition.
