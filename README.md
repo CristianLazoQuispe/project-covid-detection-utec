@@ -45,7 +45,7 @@ This model is trained with the dataset covid-chestxray from https://github.com/i
 
 The proposed architecture consists of a base network called Xception and fully connected layers as shown in figure x. We used our dataset consisting of 5826 training, 1255 validation and 1252 test datasets has been formed. The data set is described in table 1, where it can be seen that the data is unbalanced. 
 
-The dataset was split as shown in the figure 4.
+The dataset was split as shown in the table 2.
 <p align="center">
     <img src="RESOURCES/images/dataset-cristian.jpeg" 
      width="800" height="300"/>
@@ -99,7 +99,7 @@ Our results are detailed reporting five different metrics for evaluating the per
 Training of the data was performed with the cost function focused on covid detection and an f1 metric to be able to see the progress of covid detection at each epoch. An early stopping using the validation data has been used and convergence is reached in 172 training epochs. The results are shown in the Fig.5C for the training, validation and test data. The confusion matrix is shown in Fig. 5B, reaching a sensitivity of 0.975 and a specificity of 0.947 in covid recognition. 
 
 <p align="center">
-    <img src="RESOURCES/images/cristian-model.jpeg" 
+    <img src="RESOURCES/images/cristian-metrics.jpeg" 
      width="800" height="300"/>
 </p>
 
