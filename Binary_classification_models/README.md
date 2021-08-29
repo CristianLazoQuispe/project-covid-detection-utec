@@ -15,3 +15,5 @@ For this purpose we have used a different dataset of 330 images ([link](https://
 
 The performance of the proposed model was then measured with the test dataset using standard metrics.
 The notebooks related to this work are accesible through this [link](https://github.com/ChristianQF/SARSCov2)
+
+### https://github.com/ChristianQF/SARSCov2
