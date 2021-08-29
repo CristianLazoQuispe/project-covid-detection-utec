@@ -111,7 +111,7 @@ As can be seen in the results of a total of 1252 images in the test, a high sens
 It can be noted from Fig.6 that there is a significant increase in loss values in the beginning of the training, which decrease substantially in the later stage of the training. The main reason for this sharp increase and decrease is attributed to the number of data in the COVID-19 class, which is far less than the other two (Pneumonia and No-Findings) classes. The DarkCovidNet model achieved an average classification accuracy of 85.05% Unlike the model proposed by (Ozturk T) with an accuracy of 87.02% to classify: no findings, COVID-19, and Pneumonia categories; this non-significant difference of approx. 2% is because in their work they only reference the division of the dataset in 80 to 20, so when doing this division randomly the results may vary a bit. Sensitivity, specificity, precision, F1-score, and accuracy values are shown in Table XA for the detail analysis of the model for the 3-class problem. The confusion matrix is shown in Figure , reaching a sensitivity of 0.741 and an accuracy of 0.85 in covid recognition. 
 
 <p align="center">
-    <img src="RESOURCES/images/leonela-resultados.jpeg" 
+    <img src="RESOURCES/images/leonela-results.jpeg" 
      width="800" height="300"/>
 </p>
 
