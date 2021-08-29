@@ -111,11 +111,9 @@ As can be seen in the results of a total of 1252 images in the test, a high sens
 It can be noted from Fig.9A that there is a significant increase in loss values in the beginning of the training, which decrease substantially in the later stage of the training. The main reason for this sharp increase and decrease is attributed to the number of data in the COVID-19 class, which is far less than the other two (Pneumonia and No-Findings) classes. The DarkCovidNet model achieved an average classification accuracy of 85.05% Unlike the model proposed by Ozturk et al. [17] with an accuracy of 87.02% to classify: no findings, COVID-19, and Pneumonia categories (Fig 9C); this non-significant difference of approx. 2% is because in their work they only reference the division of the dataset in 80 to 20, so when doing this division randomly the results may vary a bit. Sensitivity, specificity, precision, F1-score, and accuracy values are shown in Fig 9C for the detail analysis of the model for the 3-class problem. The confusion matrix is shown in Fig. 9, reaching a sensitivity of 0.741 and an accuracy of 0.85 in covid recognition. 
 
 <p align="center">
-    <img src="RESOURCES/images/leonela-metrics.jpeg" 
-     width="800" height="300"/>
+    ![image](https://user-images.githubusercontent.com/42699888/131239288-8b40e1d2-2fd4-46a6-8976-c83ad7728185.png)
 </p>
 
-![image](https://user-images.githubusercontent.com/42699888/131239288-8b40e1d2-2fd4-46a6-8976-c83ad7728185.png)
 
 
 The model performed well over 85% in detecting COVID-19 cases for the three-class task (COVID-19, pneumonia, and no findings). The advantage of including pneumonia in the model is that covid will not be confused with dihca disease, since the similarity is very close, making the model more robust. What is remarkable about this model is that it works with more than 1500 data without generating errors, unlike other models that work with fewer images, such as the one by Ioannis et al [32]. and DarkCovidNet is proposed based on DarkNet, the model classified the chest X-ray images without using a feature extraction technique.
