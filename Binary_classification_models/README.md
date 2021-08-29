@@ -3,6 +3,8 @@
 We have used a dataset containing X-ray images of patients undergoing two classes Covid-19 and healthy, the last labelled as “normal”, which can be accessed publicly on GitHub repository (Xu et al, 2020).
 Because these data were obtained from different sources, the picture resolutions differed from each other. Then, we rescaled the pictures to a same image. Because we used a CNN-based method, it was not affected by the adverse effects of this type of data compression. 
 
+![image](https://user-images.githubusercontent.com/79282400/131243302-f11d4f36-dc51-4bac-87a3-7a0229471abc.png)
+
 ### 2. Convolutional Transfer learning neuronal networks based models
 The pre-processed image data was split into training and validation sets (424 images Covid-19 and 425 images normal), and test sets (662 images), from which we have used the training and validation data to train and validate our models. 
 
