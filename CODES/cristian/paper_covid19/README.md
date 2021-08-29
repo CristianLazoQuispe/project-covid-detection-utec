@@ -1,3 +1,5 @@
+This code has been reproduced in order to understand how neural networks work in the detection of covid and to compare the results with my created model.
+
 
 # A modified deep convolutional neural network for detecting COVID-19 and pneumonia from chest X-ray images based on the concatenation of Xception and ResNet50V2
 
