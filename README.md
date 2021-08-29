@@ -35,11 +35,7 @@ Taking in account our objective of generate useful deep learning models for dete
 
 This model is trained with the dataset covid-chestxray from https://github.com/ieee8023/covid-chestxray-dataset. The pre-processed image data was then split into training and validation sets (424 images Covid-19 and 425 images normal), and test sets (662 images), from which we have used the training and validation data to train and validate our models. 
 
-
-<p align="center">
-    <img src="RESOURCES/images/solis-red.jpeg" 
-     width="800" height="300"/>
-</p>
+![image](https://user-images.githubusercontent.com/79282400/131243390-57cce1e3-2f55-43fb-a49f-869ece1ef97c.png)
 
 All the notebooks and lynks to used datasets in:
 __https://github.com/ChristianQF/SARSCov2__
