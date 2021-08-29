@@ -1,7 +1,6 @@
 ## Developing of Deep learning models for binary classification of x-ray-images for Covid-19 detection
 ### 1. Datasets
-We have used a dataset containing X-ray images of patients undergoing two classes Covid-19 and healthy, the last labelled as “normal”, which can be accessed publicly on GitHub repository (Xu et al, 2020), and being accesible trhrough this [link](https://drive.google.com/drive/folders/1-ciDsiTncjb0uZTLEJmktJnvFSwMdwjp?usp=sharing
-
+We have used a dataset containing X-ray images of patients undergoing two classes Covid-19 and healthy, the last labelled as “normal”, which can be accessed publicly on GitHub repository (Xu et al, 2020).
 Because these data were obtained from different sources, the picture resolutions differed from each other. Then, we rescaled the pictures to a same image. Because we used a CNN-based method, it was not affected by the adverse effects of this type of data compression. 
 
 ### 2. Convolutional Transfer learning neuronal networks based models
