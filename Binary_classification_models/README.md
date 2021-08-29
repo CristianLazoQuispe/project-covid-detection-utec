@@ -6,7 +6,9 @@ Because these data were obtained from different sources, the picture resolutions
 ![image](https://user-images.githubusercontent.com/79282400/131243302-f11d4f36-dc51-4bac-87a3-7a0229471abc.png)
 
 ### 2. Convolutional Transfer learning neuronal networks based models
-The pre-processed image data was split into training and validation sets (424 images Covid-19 and 425 images normal), and test sets (662 images), from which we have used the training and validation data to train and validate our models. 
+The pre-processed image data was split into training and validation sets (424 images Covid-19 and 425 images normal), and test sets (662 images), from which we have used the training and validation data to train and validate our models. We have considered five widely used deep convolutional neuronal networks models, namely, Vgg16 (Simonyan & Zisserman,2015), DenseNet121 (Gottapu et al, 2018), InceptionV3 (Szegedy et al, 2015), Resnet50 (He  et al, 2016) and Xception (Chollet, 2017), as our transfer learning models in each case and keeping the rest of architecture equal. 
+
+![image](https://user-images.githubusercontent.com/79282400/131243390-57cce1e3-2f55-43fb-a49f-869ece1ef97c.png)
 
 Perfomance of all the generated models were  evaluated in a test set of 662 images. The notebooks related to this work are accesible through this [link](https://github.com/ChristianQF/SARSCov2)
 
@@ -18,4 +20,15 @@ For this purpose we have used a different dataset of 330 images ([link](https://
 The performance of the proposed model was then measured with the test dataset using standard metrics.
 The notebooks related to this work are accesible through this [link](https://github.com/ChristianQF/SARSCov2)
 
-### https://github.com/ChristianQF/SARSCov2
+__References__
+
+K. Simonyan and A. Zisserman, “Very deep convolutional networks for large-scale image recognition,” in Proceedings of the 3rd International Conference on Learning Representations (ICLR 2015), San Diego, CA, USA, September 2015.
+
+R.D. Gottapu, and C.H. Dagli, “DenseNet for Anatomical Brain Segmentation”. Procedia Computer. Science, 2018. 140: p. 179-185
+
+C. Szegedy, W. Liu, and Y. Jia et al., “Going deeper with convolutions,” in Proceedings of the 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 1–9, Boston, MA, USA, June 2015. 
+
+K. He, X. Zhang, S. Ren, and J. Sun. “Deep Residual Learning for Image Recognition”. IEEE Conference on Computer Vision and Pattern Recognition, 2016. pp. 770-778.
+
+F. Chollet, “Xception: Deep Learning with Depthwise Separable Convolutions”. 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017, pp. 1800-1807.
+
