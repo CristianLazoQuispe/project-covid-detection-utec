@@ -1,4 +1,4 @@
-# Detection and Severity Classification of COVID-19 in posteroanterior X-Rays Images Using Deep Learning
+# Detection of COVID-19 in posteroanterior X-Rays Images Using Deep Learning
 
 
 
