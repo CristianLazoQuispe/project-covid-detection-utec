@@ -41,6 +41,9 @@ This model is trained with the dataset covid-chestxray from https://github.com/i
      width="800" height="300"/>
 </p>
 
+All the notebooks and lynks to used datasets in:
+__https://github.com/ChristianQF/SARSCov2__
+
 ### 2.2 Multiclass classification models -  Xception based model
 
 The proposed architecture consists of a base network called Xception and fully connected layers as shown in figure x. We used our dataset consisting of 5826 training, 1255 validation and 1252 test datasets has been formed. The data set is described in table 1, where it can be seen that the data is unbalanced. 
