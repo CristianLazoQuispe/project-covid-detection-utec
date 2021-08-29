@@ -13,9 +13,9 @@ Transfer learning of e DarkCovidNet model use modificated networks DarkNet-19wit
 
 
 # Dataset
-  - https://drive.google.com/drive/folders/1aSIFG1mR3RMmC0JWCryl7upfiGgrl6Rd?usp=sharing
+  - Three_Classes: https://drive.google.com/drive/folders/1aSIFG1mR3RMmC0JWCryl7upfiGgrl6Rd?usp=sharing
+  - Binary_Classes: https://drive.google.com/drive/folders/1f2Pd7bVxQ1_fGyy5LSF6I6wEbgu-KYSb?usp=sharing
 
- 
 
 # Methodology
 
