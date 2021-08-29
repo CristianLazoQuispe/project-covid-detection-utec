@@ -68,9 +68,6 @@ As the data are unbalanced, it is proposed to use a weighted - crossentropy cost
      width="800" height="300"/>
 </p>
 
-![image](https://user-images.githubusercontent.com/42699888/131239288-8b40e1d2-2fd4-46a6-8976-c83ad7728185.png)
-
-
 The DarkCovidNet  model has 17 convolution layers, followed by BatchNorm and LeakyReLU operations. While each 3xConv layer has the same setup three times in successive. The batch normalization(BatchNorm) is used to standardize the inputs, reducing training time and increasing stability of the model. LeakyReLU is a variation of the ReLU. The Maxpool method is used in all the pooling operations. Our model, three different classes of images are used in the input classification to determine the labels of the input chest X-ray images COVID-19, pneumonia or NoFindings.
 
 <p align="center">
@@ -117,6 +114,9 @@ It can be noted from Fig.9A that there is a significant increase in loss values 
     <img src="RESOURCES/images/leonela-metrics.jpeg" 
      width="800" height="300"/>
 </p>
+
+![image](https://user-images.githubusercontent.com/42699888/131239288-8b40e1d2-2fd4-46a6-8976-c83ad7728185.png)
+
 
 The model performed well over 85% in detecting COVID-19 cases for the three-class task (COVID-19, pneumonia, and no findings). The advantage of including pneumonia in the model is that covid will not be confused with dihca disease, since the similarity is very close, making the model more robust. What is remarkable about this model is that it works with more than 1500 data without generating errors, unlike other models that work with fewer images, such as the one by Ioannis et al [32]. and DarkCovidNet is proposed based on DarkNet, the model classified the chest X-ray images without using a feature extraction technique.
 
