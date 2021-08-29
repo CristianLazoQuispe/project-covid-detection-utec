@@ -22,7 +22,7 @@ Transfer learning of e DarkCovidNet model use modificated networks DarkNet-19wit
  A dataset consisting of 844 training, 281 validation and 600 test datasets has been formed. The data set is described in table 4, where it can be seen that the data is unbalanced.
 
 <p align="center">
-    <img src="RESOURCES/images/dataset-leonela.jpeg" 
+    <img src="CristianLazoQuispe/project-covid-detection-utec/blob/main/RESOURCES/images/dataset-leonela.jpeg"
      width="800" height="300"/>
 </p>
 
